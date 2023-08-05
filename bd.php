@@ -13,4 +13,6 @@ $sql = "INSERT INTO data(user, pass) values('$user', '$pass')";
 
 mysqli_query($conexion, $sql);
 
+header("Location ./index.html");
+
 ?>
